@@ -28,3 +28,56 @@ En saanut selville mikä oli ongelmana.
 ![Screenshot6](https://i.imgur.com/YQfvhEi.png)
 pkg.removed poistaa oletuksena tulevan firefoxin. Ei estä lunttaamista mutta vaikeuttaa tosi tosi vähän...
 
+Näin yhteenvetona geogebran asennus onnistuu, config tiedoston muutokset toimivat, firefoxin poisto toimii.
+Service.running ei toimi sekä minioneilta pystyy vielä lunttaamaan siten että asentaa firefoxin uudestaan.
+
+Tässä init.sls
+*etc/apt/trusted.gpg.d/office@geogebra.org.gpg.key:
+
+  file.managed:
+
+    - source: salt://pro/office@geogebra.org.gpg.key
+
+
+
+/etc/apt/sources.list.d/geogebra.list:
+
+  file.managed:
+
+    - source: salt://pro/geogebra.list
+
+
+
+geogebra5:
+
+  pkg.installed
+
+
+
+/etc/geogebra/geogebra.conf:
+
+  file.managed:
+
+    - source: salt://pro/geogebra.conf
+
+
+
+geogebra:
+
+  service.running:
+
+    - reload: true
+
+    - enable: true
+
+    - watch:
+
+      - file: /etc/geogebra/geogebra.conf
+
+
+
+firefox-esr:
+
+  pkg.removed*
+
+
