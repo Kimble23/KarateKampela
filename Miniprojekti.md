@@ -11,3 +11,4 @@ Olin luonut ekana repon geogebralle ja kun yritin lisätä avainta se ei toiminu
 ![Screenshot1](https://i.imgur.com/7MWqnJT.png) Tässä on toimiva geogebra5. 
 
 ![Screenshot2](https://i.imgur.com/oKE7lIf.png)
+![Screenshot3](https://i.imgur.com/DmpjGFt.png)
