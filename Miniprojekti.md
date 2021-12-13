@@ -10,3 +10,4 @@ Ihan ensimmäiseksi lisäsin kokeilen asentaa asiat käsin suoraan minion koneel
 Olin luonut ekana repon geogebralle ja kun yritin lisätä avainta se ei toiminut. Mietinnän jälkeen tajusin iha itse mennä poistamaan repon. Lisäsin avaimen jonka jälkeen loin repon. Sitten pystyin asentamaan geogebra5.
 ![Screenshot1](https://i.imgur.com/7MWqnJT.png) Tässä on toimiva geogebra5. 
 
+![Screenshot2](https://i.imgur.com/oKE7lIf.png)
