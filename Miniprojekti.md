@@ -33,7 +33,7 @@ Service.running ei toimi sekä minioneilta pystyy vielä lunttaamaan siten että
 
 Tässä init.sls
 
-*etc/apt/trusted.gpg.d/office@geogebra.org.gpg.key:
+**etc/apt/trusted.gpg.d/office@geogebra.org.gpg.key:
   file.managed:
     - source: salt://pro/office@geogebra.org.gpg.key
 /etc/apt/sources.list.d/geogebra.list:
@@ -51,4 +51,4 @@ geogebra:
     - watch:
       - file: /etc/geogebra/geogebra.conf
 firefox-esr:
-  pkg.removed*
+  pkg.removed **
