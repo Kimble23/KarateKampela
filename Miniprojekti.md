@@ -15,3 +15,4 @@ Olin luonut ekana repon geogebralle ja kun yritin lisätä avainta se ei toiminu
 ![Screenshot4](https://i.imgur.com/kNRjGFc.png)
 geogebran conf tiedostoon tein muutoksia kuten anti-aliasing pois päältä vaikka ei sitä edes näe tästä vm-koneelta ja otin pois käytöstä geogebran käynnistys logon. Conf tiedosto toimii kun kokeilin, ei näkynyt käynnistyksen yhteydessä logoa.
 ![Screenshot5](https://i.imgur.com/twzLHPp.png)
+![Screenshot6](https://i.imgur.com/YQfvhEi.png)
