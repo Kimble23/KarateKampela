@@ -27,3 +27,4 @@ En saanut selville mikä oli ongelmana.
 
 ![Screenshot6](https://i.imgur.com/YQfvhEi.png)
 pkg.removed poistaa oletuksena tulevan firefoxin. Ei estä lunttaamista mutta vaikeuttaa tosi tosi vähän...
+
