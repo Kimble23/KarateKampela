@@ -1,13 +1,13 @@
 Kuvitteellinen tila jossa opettaja masterina asentaisi geogebran opiskelijoille(minioneille) ja jotenkin rajoittaisi heidän internettiin pääsyä tai tekisi lunttaamisesta vaikeampaa. Kaikki toimisi salt-stack:llä.
 
 
-Huomasin että jos käyttää vain komentoa *sudo apt-get install geogebra* se asentaa geogebra6 ja siinä oli jotain ongelmia conf tiedostojen kanssa. Ne olivat jossakin srv muodossa, en ymmärtänyt miten olisi pitänyt toimia. Siksi valitsin 5-version. Siinä config file sijaitsi /etc/geogebra/geogebra.conf, toisin kuin geogebra6:ssa
-Ihan ensimmäiseksi lisäsin kokeilen asentaa asiat käsin suoraan minion koneella.
+Huomasin että jos käyttää vain komentoa *sudo apt-get install geogebra* se asentaa geogebra6 ja siinä oli jotain ongelmia conf tiedostojen kanssa. Ne olivat jossakin srv muodossa, en ymmärtänyt miten olisi pitänyt toimia. Siksi valitsin 5-version. Siinä config file sijaitsi /etc/geogebra/geogebra.conf, toisin kuin geogebra6:ssa.
+Ihan ensimmäiseksi lisäsin kokeilen asentaa asiat käsin.
 ![Screenshot](https://i.imgur.com/UEBh4Ch.png)
 
 Olin luonut ekana repon geogebralle ja kun yritin lisätä avainta se ei toiminut. Mietinnän jälkeen tajusin iha itse mennä poistamaan repon. Lisäsin avaimen jonka jälkeen loin repon. Sitten pystyin asentamaan geogebra5.
 
-![Screenshot1](https://i.imgur.com/7MWqnJT.png) Tässä on toimiva geogebra5 masterilla käsin asennettuna.
+![Screenshot1](https://i.imgur.com/7MWqnJT.png) Tässä on toimiva geogebra5 käsin asennettuna.
 
 Tältä näyttää init.sls file
 ![Screenshot7](https://i.imgur.com/BHS5Y2v.png) 
