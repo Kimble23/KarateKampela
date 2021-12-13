@@ -12,3 +12,4 @@ Olin luonut ekana repon geogebralle ja kun yritin lisätä avainta se ei toiminu
 
 ![Screenshot2](https://i.imgur.com/oKE7lIf.png)
 ![Screenshot3](https://i.imgur.com/DmpjGFt.png)
+![Screenshot4](https://i.imgur.com/kNRjGFc.png)
