@@ -19,5 +19,9 @@ Tältä näyttää init.sls file
 geogebran conf tiedostoon tein muutoksia kuten anti-aliasing pois päältä vaikka ei sitä edes näe tästä vm-koneelta ja otin pois käytöstä geogebran käynnistys logon. Conf tiedosto toimii kun kokeilin, ei näkynyt käynnistyksen yhteydessä logoa.
 
 ![Screenshot5](https://i.imgur.com/twzLHPp.png)
+
+service.running ei toiminut jostakin syystä. Kokeilin terminaalin kautta katsoa sen statuksen,käynnistää sekä lopettaa käyttäen *sudo systemctl...*. Mutta sama error.
+En saanut selville mikä oli ongelmana.
+
 ![Screenshot6](https://i.imgur.com/YQfvhEi.png)
 pkg.removed poistaa oletuksena tulevan firefoxin. Ei estä lunttaamista mutta vaikeuttaa tosi tosi vähän...
