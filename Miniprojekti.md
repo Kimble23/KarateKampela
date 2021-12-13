@@ -16,6 +16,8 @@ Tältä näyttää init.sls file
 ![Screenshot3](https://i.imgur.com/DmpjGFt.png)
 ![Screenshot4](https://i.imgur.com/kNRjGFc.png)
 
+masterilta siirretään gpg avain sekä repo, jotta minionille voidaan asentaa geogebra
+
 geogebran conf tiedostoon tein muutoksia kuten anti-aliasing pois päältä vaikka ei sitä edes näe tästä vm-koneelta ja otin pois käytöstä geogebran käynnistys logon. Conf tiedosto toimii kun kokeilin, ei näkynyt käynnistyksen yhteydessä logoa.
 
 ![Screenshot5](https://i.imgur.com/twzLHPp.png)
