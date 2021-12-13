@@ -32,6 +32,7 @@ Näin yhteenvetona geogebran asennus onnistuu, config tiedoston muutokset toimiv
 Service.running ei toimi sekä minioneilta pystyy vielä lunttaamaan siten että asentaa firefoxin uudestaan.
 
 Tässä init.sls
+
 *etc/apt/trusted.gpg.d/office@geogebra.org.gpg.key:
 
   file.managed:
@@ -78,6 +79,5 @@ geogebra:
 
 firefox-esr:
 
-  pkg.removed*
-
-
+  pkg.removed
+*
